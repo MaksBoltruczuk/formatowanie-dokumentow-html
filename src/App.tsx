@@ -22,10 +22,12 @@ function App() {
             <li>książki</li>
           </ul>
         </div>
-        <RozkladDnia />
-        <img className={'ctp'} src={`https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png`} alt={'Catppuccin'} />
+        <RozkladDnia/>
+        <img className={'ctp'}
+             src={`https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png`}
+             alt={'Catppuccin'}/>
       </section>
-      <PrzykladParagrafu />
+      <PrzykladParagrafu/>
       <footer>
         <p>Formatowaniem tekstu zajmował się: 0000000000000000</p>
       </footer>

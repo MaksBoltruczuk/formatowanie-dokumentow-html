@@ -8,7 +8,7 @@ export const PrzykladParagrafu = () => {
   return <section>
     <p>Podaj rozmiar tekstu w %: <input type={'number'} value={scale} onChange={event => {
       setScale(parseInt(event.currentTarget.value))
-    }} /></p>
+    }}/></p>
     <select style={{width: '150px'}} value={fontStyle} onChange={event => {
       setFontStyle(event.currentTarget.value)
     }}>
@@ -18,7 +18,8 @@ export const PrzykladParagrafu = () => {
     <p>Jakim kolorem sformatować tekst?</p>
     <input type={'color'} value={color} onChange={event => {
       setColor(event.currentTarget.value)
-    }} />
-    <p style={{fontSize: `${scale}%`, fontStyle, color}} className={'sample-text'}>To jest przykład paragrafu, który może być dowolnie formatowany przez JavaScript oraz React</p>
+    }}/>
+    <p style={{fontSize: `${scale}%`, fontStyle, color}} className={'sample-text'}>To jest przykład paragrafu, który
+      może być dowolnie formatowany przez JavaScript oraz React</p>
   </section>
 }

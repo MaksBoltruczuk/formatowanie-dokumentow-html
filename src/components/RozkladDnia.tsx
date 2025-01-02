@@ -14,8 +14,8 @@ export const RozkladDnia = () => {
         <td>nauka</td>
       </tr>
       <tr>
-      <td>południe</td>
-      <td>zajęcia dodatkowe</td>
+        <td>południe</td>
+        <td>zajęcia dodatkowe</td>
       </tr>
       <tr>
         <td>popołudnie</td>
